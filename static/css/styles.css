@@ -1,0 +1,29 @@
+body {
+    font-size: 1rem;
+    font-family: "Work Sans", sans-serif;
+}
+
+nav li {
+
+    font-weight: 500;
+}
+
+.banner-section {
+    height: 100vh;
+    position: relative;
+}
+
+.banner {
+    z-index: 1;
+
+}
+
+.banner h1 {
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+.banner p {
+    font-size: 3rem;
+    font-weight: 400;
+}
