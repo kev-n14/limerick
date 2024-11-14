@@ -1,6 +1,23 @@
+:root {
+
+
+    --primary-green: rgba(0, 161, 26, 255);
+    --primary-white: hsl(0, 0%, 100%);
+    --primary-grey: hsl(0, 0%, 50%);
+    --primary-black: hsl(0, 0%, 7%);
+
+}
+
 body {
     font-size: 1rem;
+    line-height: 1.6rem;
     font-family: "Work Sans", sans-serif;
+}
+
+.background-green {
+    background: var(--primary-green);
+    color: var(--primary-white);
+    padding: 0;
 }
 
 nav li {
@@ -24,6 +41,6 @@ nav li {
 }
 
 .banner p {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 400;
 }

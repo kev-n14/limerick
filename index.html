@@ -19,13 +19,17 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-                <a class="navbar-brand mt-lg-0 px-5" href="index.html">
+                <a class="navbar-brand px-5" href="index.html">
                     <img src="static/images/logo.png" height="80" alt="Discover Ireland Logo" />
                 </a>
-                <div class="collapse navbar-collapse">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-5">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto px-5">
                         <li class="nav-item active">
                             <a class="nav-link" href="index.html">Home</a>
                         </li>
@@ -35,6 +39,12 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.html">Contact Us</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="attactions.html">Attactions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -42,17 +52,97 @@
         <!-- Navbar -->
     </header>
     <section class="banner-section banner d-flex align-items-center justify-content-start">
-        <img src="static/images/banner_image.jpeg" alt="banner image" class="img-fluid w-100 h-100"
+        <img src="static/images/hero-min.jpg" alt="banner image" class="img-fluid w-100 h-100"
             style="object-fit: cover;">
 
         <div class="banner banner-text position-absolute text-white mx-5 px-5">
-            <h1>Discover Limerick</h1>
-            <p>Explore the beautiful sights of Limericks</p>
+            <h1>Welcome to Discover Limerick</h1>
+            <p>Your ultimate guide to exploring the rich heritage,</p>
+            <p class="py-0 my-0">breathtaking sights, and
+                vibrant culture of Limerick</p>
         </div>
     </section>
-    <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-lg-2 "></div>
+            <div class="col-md-10 col-lg-8 py-5">
 
-    </section>
+
+                <h2 class="text-justify">Our Aim</h2>
+                <p class="text-justify">Discover Limerick brings you closer to the heart of Ireland. Explore historic
+                    landmarks, enjoy the
+                    scenic landscapes, and immerse yourself in the cultural events that make Limerick an unforgettable
+                    experience.
+                    Plan your trip with us and find the best attractions, dining spots, and accommodations that Limerick
+                    has to offer.
+                </p>
+
+                <h2 class="mt-5">Why Visit Limerick</h2>
+                <p>Limerick is a city steeped in history, known for its medieval architecture, vibrant arts scene, and
+                    scenic views along the River Shannon. Visitors are drawn to Limerick for its unique blend of
+                    historic charm and modern attractions, making it a must-see destination in Ireland.</p>
+
+                <p>Whether you're exploring historic landmarks or savoring the local cuisine, Limerick offers a diverse
+                    array of attractions for every traveler.</p>
+            </div>
+
+            <div class="col-md-1 col-lg-2"></div>
+
+        </div>
+
+
+    </div>
+    <div class="container">
+        <div class="row d-flex flex-wrap">
+            <!-- Card 1 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/images/king-johns-castle-limerick-city.jpg"
+                        alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">King John's Castle</h5>
+                        <p class="card-text">TThis 13th-century castle offers an interactive experience
+                            where you can explore medieval life and enjoy stunning views over the River Shannon.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://kingjohnscastle.ie/"><small class="text-muted">Learn More</small></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 2 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/static/images/church.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">St. Mary's Cathedral</h5>
+                        <p class="card-text">One of Ireland's oldest buildings, this beautiful
+                            cathedral dates back to 1168 and is a stunning example of Gothic architecture</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.saintmaryscathedral.ie/"><small class="text-muted">Learn More</small></a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="static/images/munster-stadium.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Thomand Park</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                            additional content. This card has even longer content than the first to show that equal
+                            height action.</p>
+                    </div>
+                    <div class="card-footer">
+                        <a href="https://www.munsterrugby.ie/the-club/stadia/thomond-park/"><small
+                                class="text-muted">Learn More </small></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Footer -->
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
         <!-- Section: Social media -->
@@ -113,13 +203,13 @@
 
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                        <p><i class="fas fa-home me-3"></i> King John's Castle, Nicholas St, Englishtown, Limerick, V94
-                            FX25</p>
+                        <p><i class="fas fa-home me-3"></i> Unit 4, Limerick, V99
+                            FX99</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
                             discoverireland@gmail.com
                         </p>
-                        <p><i class="fas fa-phone me-3"></i> (01) 234 567 88</p>
+                        <p><i class="fas fa-phone me-3"></i> (01) 234 567 89</p>
                     </div>
                 </div>
             </div>
