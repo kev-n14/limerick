@@ -3,111 +3,184 @@
 {% block title %}About US - Discover Limerick {% endblock %}
 
 {% block content %}
-<div class="section section-top">
-    <h1 class="text-center pb-5">Places To Visit</h1>
+<section class="section section-top">
+    <section class="wrapper">
+        <div class="container-fostrap">
+            <h1 class="text-center pt-3 pb-5 mb-2 title-with-lines">Places To Visit</h1>
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://kingjohnscastle.ie/" target="_blank">
+                                    <img src="{% static 'images/king-johns-castle-limerick-city.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://kingjohnscastle.ie/" target="_blank">
+                                            King John's Castle
+                                        </a>
+                                    </h4>
+                                    <p class="py-2">
+                                        This 13th-century castle offers an interactive experience
+                                        where you can explore medieval life and enjoy stunning views over the River
+                                        Shannon.</p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://kingjohnscastle.ie/" class="btn btn-link btn-block"
+                                        target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.saintmaryscathedral.ie/" target="_blank">
+                                    <img src="{% static 'images/church.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.saintmaryscathedral.ie/" target="_blank">
+                                            St. Mary's Cathedral
+                                        </a>
+                                    </h4>
 
-    <div class="row d-flex flex-wrap">
-        <!-- Card 1 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/king-johns-castle-limerick-city.jpg' %}"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">King John's Castle</h5>
-                    <p class="card-text">This 13th-century castle offers an interactive experience
-                        where you can explore medieval life and enjoy stunning views over the River Shannon.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://kingjohnscastle.ie/"><small class="text-muted">Learn More</small></a>
+                                    <p class="py-2">
+                                        One of Ireland's oldest buildings, this beautiful
+                                        cathedral dates back to 1168 and is a stunning example of Gothic
+                                        architecture
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://www.saintmaryscathedral.ie/" class="btn btn-link btn-block"
+                                        target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.munsterrugby.ie/the-club/stadia/thomond-park/"
+                                    target="_blank">
+                                    <img src="{% static 'images/munster-stadium.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.munsterrugby.ie/the-club/stadia/thomond-park/"
+                                            target="_blank">
+                                            Thomand Park
+                                        </a>
+                                    </h4>
+                                    <p class="py-2">
+                                        There's nothing like experiencing the “Munster roar” in Thomond Park and
+                                        seeing the unique synergy between the Munster rugby team and the fans at a
+                                        live
+                                        game.
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://www.munsterrugby.ie/the-club/stadia/thomond-park/"
+                                        class="btn btn-link btn-block" target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.discoverireland.ie/limerick/lough-gur"
+                                    target="_blank">
+                                    <img src="{% static 'images/lough-gur-visitor-centre-limerick.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.discoverireland.ie/limerick/lough-gur" target="_blank">
+                                            Lough Gur
+                                        </a>
+                                    </h4>
+                                    <p class="py-2">
+                                        Enjoy stunning views of Lough Gur and soak up the history of the area, from
+                                        its ancient burial mounds and megalithic tombs, to its forts and standing stones
+                                        that remain
+                                        scattered around the mysterious landscape.</p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://www.discoverireland.ie/limerick/lough-gur"
+                                        class="btn btn-link btn-block" target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.discoverireland.ie/adare" target="_blank">
+                                    <img src="{% static 'images/manor-entrance.webp' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.discoverireland.ie/adare" target="_blank">
+                                            Adare Manor
+                                        </a>
+                                    </h4>
+                                    <p class="py-2">
+                                        Feel free to spend your whole day in "Ireland's prettiest village" and
+                                        explore the amazing variety of sites on show. Lap up views of the 19th Century
+                                        Adare Manor,
+                                        the gorgeous thatched cottages that once housed the manor's workers and the
+                                        ruins of three
+                                        ancient monasteries.
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://www.discoverireland.ie/adare" class="btn btn-link btn-block"
+                                        target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.discoverireland.ie/limerick/the-hunt-museum"
+                                    target="_blank">
+                                    <img src="{% static 'images/hunt_museum.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.discoverireland.ie/limerick/the-hunt-museum"
+                                            target="_blank">
+                                            The Hunt Museum
+                                        </a>
+                                    </h4>
+
+                                    <p class="py-2">
+                                        In the heart of Limerick on the banks of the Shannon, the Hunt Museum's
+                                        eclectic collections reflect the diverse interests of its founders, John and
+                                        Gertrude Hunt.
+
+                                    </p>
+                                </div>
+                                <div class="card-read-more">
+                                    <a href="https://www.discoverireland.ie/limerick/the-hunt-museum"
+                                        class="btn btn-link btn-block" target="_blank">
+                                        Read More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
 
-        <!-- Card 2 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/church.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">St. Mary's Cathedral</h5>
-                    <p class="card-text">One of Ireland's oldest buildings, this beautiful
-                        cathedral dates back to 1168 and is a stunning example of Gothic architecture</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.saintmaryscathedral.ie/"><small class="text-muted">Learn More</small></a>
-                </div>
-            </div>
-        </div>
+    </section>
+</section>
 
-        <!-- Card 3 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/munster-stadium.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Thomand Park</h5>
-                    <p class="card-text">There's nothing like experiencing the “Munster roar” in Thomond Park and
-                        seeing the unique synergy between the Munster rugby team and the fans at a live game.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.munsterrugby.ie/the-club/stadia/thomond-park/"><small class="text-muted">Learn
-                            More </small></a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="row d-flex flex-wrap">
-        <!-- Card 1 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/hunt_museum.jpg' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">The Hunt Museum</h5>
-                    <p class="card-text">In the heart of Limerick on the banks of the Shannon, the Hunt Museum's
-                        eclectic collections reflect the diverse interests of its founders, John and Gertrude Hunt.
-                    </p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.discoverireland.ie/limerick/the-hunt-museum"><small class="text-muted">Learn
-                            More</small></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/lough-gur-visitor-centre-limerick.jpg' %}"
-                    alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Lough Gur</h5>
-                    <p class="card-text">Enjoy stunning views of Lough Gur and soak up the history of the area, from
-                        its ancient burial mounds and megalithic tombs, to its forts and standing stones that remain
-                        scattered around the mysterious landscape.</p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.discoverireland.ie/limerick/lough-gur"><small class="text-muted">Learn
-                            More</small></a>
-                </div>
-            </div>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="col-md-4 mb-4">
-            <div class="card">
-                <img class="card-img-top" src="{% static 'images/manor-entrance.webp' %}" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title"> Adare Manor</h5>
-                    <p class="card-text">Feel free to spend your whole day in "Ireland's prettiest village" and
-                        explore the amazing variety of sites on show. Lap up views of the 19th Century Adare Manor,
-                        the gorgeous thatched cottages that once housed the manor's workers and the ruins of three
-                        ancient monasteries. </p>
-                </div>
-                <div class="card-footer">
-                    <a href="https://www.discoverireland.ie/adare"><small class="text-muted">Learn More </small></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
 {% endblock %}
