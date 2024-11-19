@@ -274,8 +274,30 @@
 </section>
 
 <section class="section section-top">
-    <h2>New Section</h2>
-    <p>Content for the first section goes here.</p>
+    <div class="row">
+        <div class="col-md-1 col-lg-1"></div>
+        <div class="col-md-10 col-lg-6 py-3">
+            <h2 class="text-center py-3 title-with-lines">Where To Find Us</h2>
+            <div style="width: 100%"><iframe width="90%" height="500" frameborder="0" scrolling="no" marginheight="0"
+                    marginwidth="0"
+                    src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=limerick+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+                        href="https://www.gps.ie/">gps vehicle tracker</a></iframe></div>
+        </div>
+
+        <div class="col-md-10 col-lg-4 py-5 my-5 d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <h2 class="py-3 title-with-lines">Contact Us</h2>
+                <p><i class="fas fa-home my-3"></i> Unit 4, Limerick, V99 FX99</p>
+                <p><i class="fas fa-envelope my-3"></i><a href="mailto:discoverireland@gmail.com"
+                        class="text-decoration-none text-white">
+                        discoverireland@gmail.com</a></p>
+                <p><i class="fas fa-phone my-3"></i> (01) 234 567 89</p>
+                <a href="{% url 'contact' %}" class="btn btn-success">Get In Touch</a>
+            </div>
+        </div>
+
+        <div class="col-md-1 col-lg-1"></div>
+    </div>
 </section>
 
 {% endblock %}
