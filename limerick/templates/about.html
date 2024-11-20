@@ -3,22 +3,25 @@
 {% block title %}About US - Discover Limerick {% endblock %}
 
 {% block content %}
-<section class="container my-5">
-    <h3 class="text-center mb-4 title-with-lines">About Us</h3>
-    <div class="row">
-        <div class="col-1 "></div>
-        <div class="col-10 ">
-            <p>
-                Welcome to <strong>Discover Limerick</strong>, your go-to guide for exploring the beautiful city of
-                Limerick,
-                Ireland. Whether you're a first-time visitor or a seasoned traveler, we aim to make your experience
-                unforgettable with curated tours, local insights, and tips on the best places to visit, stay, eat, and
-                explore in Limerick.
-            </p>
-        </div>
+<section class="section-top section">
+    <section class="container py-2">
+        <h3 class="text-center mb-4 title-with-lines">About Us</h3>
+        <div class="row">
+            <div class="col-1"></div>
+            <div class="col-10 ">
+                <p>
+                    Welcome to <strong>Discover Limerick</strong>, your go-to guide for exploring the beautiful city of
+                    Limerick,
+                    Ireland. Whether you're a first-time visitor or a seasoned traveler, we aim to make your experience
+                    unforgettable with curated tours, local insights, and tips on the best places to visit, stay, eat,
+                    and
+                    explore in Limerick.
+                </p>
+            </div>
 
-        <div class="col-1 "></div>
-    </div>
+            <div class="col-1 "></div>
+        </div>
+    </section>
 
     <div class="row">
         <h3 class="text-center py-3 title-with-lines">Our Mission</h3>
@@ -33,13 +36,14 @@
 
         <div class="col-1 "></div>
     </div>
+</section>
+<section class="section-bottom section">
     <div class="row">
-        <h3 class="text-center py-3 title-with-lines">Why Choose Us?</h3>
+        <h3 class="text-center title-with-lines">Why Choose Us?</h3>
         <div class="col-1"></div>
         <div class="col-3 py-5">
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <!-- Front of the card -->
                     <div class="flip-card-front">
                         <img src="{% static 'images/bus-guide-one.jpg' %}" alt="Gudied tour">
                         <div class="card-text">
@@ -47,7 +51,6 @@
 
                         </div>
                     </div>
-                    <!-- Back of the card -->
                     <div class="flip-card-back">
 
                         <p>Our team consists of locals who are passionate about their city and eager
@@ -62,7 +65,6 @@
 
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <!-- Front of the card -->
                     <div class="flip-card-front">
                         <img src="{% static 'images/wallpainting.jpg' %}" alt="King John's Castle">
                         <div class="card-text">
@@ -70,7 +72,6 @@
 
                         </div>
                     </div>
-                    <!-- Back of the card -->
                     <div class="flip-card-back">
                         <p>We offer customized tours to suit your interests, whether it's history,
                             nature, food, or culture.</p>
@@ -83,7 +84,6 @@
 
             <div class="flip-card">
                 <div class="flip-card-inner">
-                    <!-- Front of the card -->
                     <div class="flip-card-front">
                         <img src="{% static 'images/church_2.jpg' %}" alt="King John's Castle">
                         <div class="card-text">
@@ -91,7 +91,6 @@
 
                         </div>
                     </div>
-                    <!-- Back of the card -->
                     <div class="flip-card-back">
                         <p>Get access to detailed maps, guides, and recommendations to
                             help you navigate the city with ease.</p>
@@ -101,24 +100,13 @@
         </div>
     </div>
     </div>
+</section>
+<div class="col-1"></div>
+</div>
 
-    <div class="col-1"></div>
-    </div>
 
-    <div class="row">
-        <h3 class="text-center py-3 title-with-lines">Our Team</h3>
-        <div class="col-1"></div>
-        <div class="col-10 py-5">
-            <p>
-                The <strong>Discover Limerick</strong> team is made up of passionate locals who have a deep love for the
-                city. Our
-                team includes experienced tour guides, travel experts, and cultural enthusiasts, all working together to
-                make your visit to Limerick truly special.
-            </p>
-        </div>
-        <div class="col-1"></div>
-    </div>
 
+<section class="section-top section">
     <div class="row">
         <h3 class="text-center py-3 title-with-lines">Discover Limerick's History</h3>
         <div class="col-1"></div>
@@ -145,8 +133,8 @@
         </div>
         <div class="col-1"></div>
     </div>
-
-
+</section>
+<section class="section section-bottom">
     <div class="row">
         <h3 class="text-center py-3 title-with-lines">Cultural Highlights</h3>
         <div class="col-1"></div>
@@ -170,71 +158,73 @@
         </div>
         <div class="col-1"></div>
     </div>
-    <section class="section section-bottom">
-        <h1 class="text-center pt-3 pb-5 mb-2 title-with-lines">Useful Links</h1>
-        <section class="wrapper">
-            <div class="container-fostrap">
+</section>
+<section class="section section-top">
+    <h1 class="text-center pt-3 pb-5 mb-2 title-with-lines">Useful Links</h1>
+    <section class="wrapper">
+        <div class="container-fostrap">
 
-                <div class="content">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="card card-top">
-                                    <a class="img-card" href="https://www.tourismireland.com" target="_blank">
-                                        <img src="{% static 'images/link-images/tourism_Ireland_logo.jpg' %}" />
-                                    </a>
-                                    <div class="card-content">
-                                        <h4 class="card-title">
-                                            <a href="https://www.tourismireland.com" target="_blank">
-                                                Tourism Ireland
-                                            </a>
-                                        </h4>
-                                    </div>
-
+            <div class="content">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.tourismireland.com" target="_blank">
+                                    <img src="{% static 'images/link-images/tourism_Ireland_logo.jpg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.tourismireland.com" target="_blank">
+                                            Tourism Ireland
+                                        </a>
+                                    </h4>
                                 </div>
+
                             </div>
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="card card-top">
-                                    <a class="img-card" href="https://www.tourismireland.com" target="_blank">
-                                        <img src="{% static 'images/link-images/booking.jpeg' %}" />
-                                    </a>
-                                    <div class="card-content">
-                                        <h4 class="card-title">
-                                            <a href="https://www.booking.com" target="_blank">
-                                                Book Your Stay in Limerick
-                                            </a>
-                                        </h4>
-                                    </div>
-
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card" href="https://www.tourismireland.com" target="_blank">
+                                    <img src="{% static 'images/link-images/booking.jpeg' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.booking.com" target="_blank">
+                                            Book Your Stay in Limerick
+                                        </a>
+                                    </h4>
                                 </div>
+
                             </div>
-                            <div class="col-xs-12 col-sm-4">
-                                <div class="card card-top">
-                                    <a class="img-card"
-                                        href="https://www.tripadvisor.com/Tourism-g186621-Limerick_County_Limerick-Vacations.html"
-                                        target="_blank">
-                                        <img src="{% static 'images/link-images/tripadvisor-icon.webp' %}" />
-                                    </a>
-                                    <div class="card-content">
-                                        <h4 class="card-title">
-                                            <a href="https://www.tripadvisor.com/Tourism-g186621-Limerick_County_Limerick-Vacations.html"
-                                                target="_blank">
-                                                TripAdvisor - Limerick
-                                            </a>
-                                        </h4>
-                                    </div>
-
+                        </div>
+                        <div class="col-xs-12 col-sm-4">
+                            <div class="card card-top">
+                                <a class="img-card"
+                                    href="https://www.tripadvisor.com/Tourism-g186621-Limerick_County_Limerick-Vacations.html"
+                                    target="_blank">
+                                    <img src="{% static 'images/link-images/tripadvisor-icon.webp' %}" />
+                                </a>
+                                <div class="card-content">
+                                    <h4 class="card-title">
+                                        <a href="https://www.tripadvisor.com/Tourism-g186621-Limerick_County_Limerick-Vacations.html"
+                                            target="_blank">
+                                            TripAdvisor - Limerick
+                                        </a>
+                                    </h4>
                                 </div>
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </section>
+        </div>
 
     </section>
 
+</section>
+
+<section class="section section-bottom">
     <div class="row">
         <h3 class="text-center py-3 title-with-lines">Join Us on Our Journey</h3>
         <div class="col-1"></div>
@@ -251,7 +241,7 @@
         <div class="col-1"></div>
     </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center pb-5">
         <a href="{% url 'contact' %}">
             <button type="button" class="btn btn-success btn-lg btn-block">Contact Us</button>
         </a>
