@@ -1,6 +1,4 @@
 :root {
-
-
     --primary-white: hsl(0, 0%, 100%);
     --primary-grey: hsl(0, 0%, 50%);
     --primary-black: hsl(0, 0%, 7%);
@@ -56,6 +54,10 @@ body {
 }
 
 /*Nav Bar*/
+.navbar {
+    background-color: var(--primary-grey);
+}
+
 .navbar-nav .nav-link {
     position: relative;
     text-decoration: none;

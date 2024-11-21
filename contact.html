@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Limerick</title>
+    <link rel="icon" type="image/png" href="static\images\favicon.ico">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="static/css/styles.css" />
+
+    <!--Font Awesome -->
+    <script src="https://kit.fontawesome.com/43ecf20a8b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand px-5" href="index.html">
+                    <img src="static/images/logo.png" height="80" alt="Discover Ireland Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto px-5">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="attactions.html">Attractions</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="cart.html">Cart</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section class="contact-bg d-flex align-items-center justify-content-center">
+        <div class="container contact-container ">
+            <h2 class="text-center mb-4 title-with-lines">Contact Us</h2>
+            <form>
+                <!-- Name and Email -->
+                <div class="row">
+                    <div class="col-2"></div>
+                    <div class="col-8">
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="name" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter your name"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="email" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="email" placeholder="Enter your email"
+                                    required>
+                            </div>
+                        </div>
+                        <!-- Subject -->
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="subject" class="form-label">Subject</label>
+                                <select class="form-select" id="subject" required>
+                                    <option value="" disabled selected>Select a subject</option>
+                                    <option value="book-guide">Book a Guide</option>
+                                    <option value="more-info">More Information</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Message -->
+                        <div class="row mb-3">
+                            <div class="col-12">
+                                <label for="message" class="form-label">Message</label>
+                                <textarea class="form-control" id="message" rows="4"
+                                    placeholder="Write your message here..." required></textarea>
+                            </div>
+                        </div>
+                        <!-- Terms Checkbox -->
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" required>
+                            <label class="form-check-label" for="terms">I agree to the <a href="#"
+                                    data-bs-toggle="modal" data-bs-target="#termsModal">terms and
+                                    conditions</a></label>
+                        </div>
+
+                        <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="termsModalLabel">Terms and Conditions</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <h6>1. Introduction</h6>
+                                        <p>Welcome to <span>Discover Ireland</spanspan>. By accessing or using our
+                                                website,
+                                                you agree to
+                                                comply with and be bound by the following terms and conditions. Please
+                                                read
+                                                them
+                                                carefully.</p>
+
+                                        <h6>2. Use of the Website</h6>
+                                        <p>You agree to use this website only for lawful purposes and in a manner that
+                                            does
+                                            not infringe the rights or restrict the use of this website by others.</p>
+
+                                        <h6>3. Disclaimer</h6>
+                                        <p>The information provided on this website is for general purposes only. We
+                                            make no
+                                            representations or warranties of any kind regarding the accuracy or
+                                            reliability
+                                            of the information provided.</p>
+
+                                        <h6>4. Changes to Terms</h6>
+                                        <p>We reserve the right to modify these terms and conditions at any time.
+                                            Changes
+                                            will be effective immediately upon posting on the website.</p>
+
+                                        <h6>5. Contact Us</h6>
+                                        <p>If you have any questions about these Terms and Conditions, please contact us
+                                            at
+                                            <a href="mailto:discoverireland@gmail.com">discoverireland@gmail.com</a>.
+                                        </p>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Submit Button -->
+                        <div class="d-flex">
+                            <button type="submit" class="btn btn-primary">Send Message</button>
+                        </div>
+                    </div>
+            </form>
+        </div>
+        <div class="col-2"></div>
+        </div>
+    </section>
+
+    <footer class="text-center text-lg-start bg-body-tertiary text-muted">
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <div class="me-5 d-none d-lg-block">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/" class="me-4 text-reset" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://x.com/?lang=en" class="me-4 text-reset" target="_blank">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+                <a href="https://workspace.google.com/gmail/" class="me-4 text-reset" target="_blank">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+                <a href="https://www.instagram.com/" class="me-4 text-reset" target="_blank">
+                    <i class="fa-brands fa-square-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/" class="me-4 text-reset" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </section>
+
+        <section>
+            <div class="container text-center text-md-start mt-5">
+                <div class="row mt-3">
+                    <div class="col-lg-4 col-xl-3 mx-auto mb-4">
+                        <a class="navbar-brand px-5" href="index.html">
+                            <img src="static/images/logo.png" height="120" alt="Discover Ireland Logo" />
+                        </a>
+
+                        <p class="py-3">
+                            To make the most of your holiday in Ireland, visit one of Fáilte Ireland's tourist
+                            information centres for free and independent advice, local maps and helpful guides.
+                        </p>
+                    </div>
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Unit 4, Limerick, V99
+                            FX99</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i><a href="mailto:discoverireland@gmail.com"
+                                class="text-decoration-none text-secondary">
+                                discoverireland@gmail.com</a>
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> (01) 234 567 89</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Copyright:
+            <a class="text-reset fw-bold" href="index.html">DiscoverLimerick.com</a>
+        </div>
+    </footer>
+
+    <script src="static/js/app.js"></script>
+</body>
+
+</html>

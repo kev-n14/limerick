@@ -44,7 +44,6 @@
 - **HTML5**: For structuring the website content.
 - **CSS3**: For styling the website, using custom styles as well as Bootstrap for responsive design.
 - **Bootstrap 5**: Used for grid layouts, buttons, forms, and responsiveness.
-- **Django**: Framework for the backend with template rendering and static file management.
 - **Font Awesome**: For icons used in navigation and event listings.
   
 ---
@@ -69,30 +68,7 @@ To run this project locally, follow these steps:
 
 ## Folder Structure
 
-basic folder structure for Discover Limerick website:
 
-```
-discover-limerick/
-│
-├── discover_limerick/        # Django app
-│   ├── migrations/           # Database migrations
-│   ├── templates/            # HTML template files
-│   │   ├── base.html         # Base template
-│   │   ├── nav_bar.html      # Navigation bar
-│   │   ├── footer.html       # Footer template
-│   │   ├── index.html        # Home page template
-│   │   ├── about.html        # About page template
-│   │   └── contact.html      # Contact page template
-│   ├── static/               # Static files (CSS, images)
-│   │   ├── images/           # Image assets
-│   │   └── css/              # Custom CSS files
-│   ├── views.py              # Python code to render templates
-│   ├── urls.py               # URL routing
-│   └── models.py             # Database models (if any)
-│
-├── requirements.txt          # Python dependencies
-└── manage.py                 # Django project management
-```
 
 ---
 

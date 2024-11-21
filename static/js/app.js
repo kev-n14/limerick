@@ -25,10 +25,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 btn.classList.remove("btn-outline-primary");
                 btn.classList.add("btn-danger");
 
-                let btn = cardBody.getElementById("checkBtn");
-                btn.innerHTML = <button class="btn btn-success" id="checkoutBtn">Checkout</button>
-
-
             }
         });
     });
