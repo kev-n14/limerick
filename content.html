@@ -50,78 +50,207 @@
             </div>
         </nav>
     </header>
-    <div class="container my-5">
-        <h1 class="text-center mb-4">Website Contents Overview</h1>
-        <table class="table table-striped table-bordered">
-            <thead class="table-dark">
-                <tr>
-                    <th>Webpage</th>
-                    <th>Description</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td><a href="index.html">Home</a></td>
-                    <td>
-                        The homepage features a welcoming banner with a high-resolution background image and overlaid
-                        text introducing "Discover Limerick." It includes a responsive navigation bar with links to
-                        other pages. A section introduces the website's aim with supporting imagery, and another
-                        highlights top attractions with card components, utilizing Bootstrap's grid system for layout. A
-                        call-to-action button directs users to learn more, and the footer connects users to social media
-                        platforms.
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="about.html">About Us</a></td>
-                    <td>
-                        The About Us page describes the mission and vision of the "Discover Limerick" website. Using
-                        Bootstrap's grid system, the page presents textual content alongside images, ensuring an
-                        engaging and mobile-responsive layout. Custom styling highlights key points, and sections flow
-                        naturally for a seamless reading experience. The page combines HTML semantics and Bootstrap's
-                        utility classes to enhance accessibility and user experience.
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="shop.html">Shop</a></td>
-                    <td>
-                        The Shop page provides a visually engaging display of products, featuring digital prints of
-                        Irish landmarks and artworks. Products are arranged in a responsive grid layout using Bootstrap,
-                        with each item showcased in a card component. Cards include high-quality images, titles,
-                        descriptions, prices, and an "Add to Cart" button with Font Awesome icons for easy interaction.
-                        Users can navigate through the product offerings and use a "Checkout" button for seamless
-                        purchases. The page is complemented by a stylish header, a responsive navbar, and a footer
-                        providing contact details and social media links, maintaining consistency with the site's
-                        design.
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="attactions.html">Attractions</a></td>
-                    <td>
-                        The Attractions page highlights top destinations in Limerick, Ireland, presented through an
-                        engaging and responsive design. Each attraction is displayed in a Bootstrap card component with
-                        a high-quality image, title, description, and external "Read More" links for further details.
-                        Featured sites include King John's Castle, St. Mary's Cathedral, and Thomond Park, showcasing
-                        historical and cultural landmarks. The page integrates a visually appealing layout with a
-                        consistent header and footer, offering social media links, contact information, and a cohesive
-                        user experience across the website.
-                    </td>
-                </tr>
-                <tr>
-                    <td><a href="index.html">Contact Page</a></td>
-                    <td>
-                        The "Discover Limerick" webpage serves as the main entry point for exploring Limerick, Ireland,
-                        featuring a visually appealing design and responsive layout. It includes a Bootstrap-powered
-                        navigation bar with links to key sections: Home, About Us, Contact Us, Attractions, and Cart.
-                        The page highlights a modern contact form with validation, a modal for terms and conditions, and
-                        seamless user interaction. Social media integration is present via Font Awesome icons, linking
-                        to platforms like Facebook, Instagram, and LinkedIn. A stylish footer provides contact details,
-                        a logo, and helpful tourist information, ensuring a consistent and user-friendly experience
-                        across the site.
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <section class="content-bg">
+        <div class="container py-5">
+            <h1 class="text-center mb-4 ">Website Contents Overview</h1>
+            <h4 class="text-center mb-4">This website contains the following HTML/CSS/JavaScript/Bootstrap Features</h4>
+            <table class="table table-striped table-bordered">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Webpage</th>
+                        <th>Description</th>
+                        <th>HTML Features</th>
+                        <th>CSS Features</th>
+                        <th>JavaScript Features</th>
+                        <th>Bootstrap Features</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NavBar</td>
+                        <td>Navigation bar with links to various pages and a collapsible menu for mobile responsiveness.
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Uses "nav" and "a" tags for structuring the navigation links.</li>
+                                <li>Logo linked using "img" wrapped in "a" for home page redirection.</li>
+                                <li>Links to important pages (e.g., "Home", "About Us", "Attractions").</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Background color with ".bg-light" and spacing with ".px-5" for padding around the
+                                    logo
+                                    and links.</li>
+                                <li>Font styling with Bootstrap's default classes for typography.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Collapsible menu for mobile views using "data-bs-toggle" and "data-bs-target".</li>
+                                <li>Responsive toggler button with "navbar-toggler" for smaller screens.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Bootstrap's ".navbar" for overall structure and responsive layout.</li>
+                                <li>Grid-based layout for navigation items with ".navbar-nav" and ".ms-auto" for
+                                    right-aligned items.</li>
+                                <li>Styled links with ".nav-link" and hover effects on items.</li>
+                                <li>Responsive toggler button (".navbar-toggler") visible on smaller screens.</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><a href="index.html">Index Page</a></td>
+                        <td>Landing page with a welcoming banner, introduction, and links to other sections</td>
+                        <td>
+                            <ul>
+                                <li>Structure with "header", "section", and "footer" tags</li>
+                                <li>Links to other pages</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Responsive design with flexbox for centering content</li>
+                                <li>Background images applied using CSS</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Responsive banner section</li>
+                                <li>Hover effect on product cards</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Navbar with collapsing menu</li>
+                                <li>Buttons with Bootstrap classes</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="about.html">About Us Page</a></td>
+                        <td>Details about Discover Limerick, highlighting the city's mission, local knowledge, and
+                            cultural
+                            attractions.</td>
+                        <td>
+                            <ul>
+                                <li>Semantic HTML5 tags for structure: "header", "section", and "footer".</li>
+                                <li>Images like the logo and attractions using "img" tags.</li>
+                                <li>Links ("a" anchor tags) to external resources, such as the contact page.</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Custom CSS for section styling: ".section-top", ".section-bottom",
+                                    ".title-with-lines".
+                                </li>
+                                <li>Flexbox layout for responsive content alignment (e.g., "flip-card" layout).</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Flip card hover effect for interactive sections like "Why Choose Us?" using CSS.
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Responsive grid layout with ".row", ".col-*" for section distribution.</li>
+                                <li>Bootstrap ".navbar" for navigation and ".btn" for call-to-action buttons.</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="contact.html">Contact Page</a></td>
+                        <td>Contact form with a background image and form elements for user interaction</td>
+                        <td>
+                            <ul>
+                                <li>Contact form with "input" and "textarea" fields</li>
+                                <li>Links to social media and email</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Custom background image with overlay</li>
+                                <li>Responsive layout using flexbox for form alignment</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Form validation using JavaScript (required fields)</li>
+                                <li>Modal for terms and conditions</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Responsive design for form elements using Bootstrap</li>
+                                <li>Buttons for submitting the form styled with Bootstrap</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="attactions.html">Attractions Page</a></td>
+                        <td>Details about tourist attractions in the area with interactive elements</td>
+                        <td>
+                            <ul>
+                                <li>Card layout for each attraction</li>
+                                <li>Links embedded inside the card for external resources</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>CSS for the card hover effect</li>
+                                <li>Custom background colors for sections</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Interactive "Add to Cart" functionality</li>
+                                <li>Toggle text button for adding/removing items</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Grid layout with Bootstrap for responsive design</li>
+                                <li>Buttons for "Read More" actions</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><a href="cart.html">Cart Page</a></td>
+                        <td>Displays a list of selected items, with a checkout button</td>
+                        <td>
+                            <ul>
+                                <li>List items in the cart dynamically generated with JavaScript</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Card layout for items in the cart</li>
+                                <li>Flexbox for aligning the cart elements</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Click functionality to add/remove items from the cart</li>
+                                <li>Alert messages for the user (e.g., cart empty or checkout)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul>
+                                <li>Card components for displaying products</li>
+                                <li>Buttons styled with Bootstrap for cart actions</li>
+                            </ul>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+    </section>
 
     <footer class="text-center text-lg-start bg-body-tertiary text-muted">
         <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">

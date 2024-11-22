@@ -51,3 +51,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
 });
 
+document.getElementById("btnMessage").addEventListener("click", function () {
+
+    const form = document.querySelector("form");
+    if (form.checkValidity()) {
+
+        alert("Thank you for your message.");
+        form.reset();
+    }
+});
