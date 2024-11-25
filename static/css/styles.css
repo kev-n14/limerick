@@ -18,6 +18,11 @@ body {
     padding: 0;
 }
 
+.first-section {
+
+    margin-top: 90px;
+}
+
 /*Global Styling*/
 .section {
     padding: 50px;
