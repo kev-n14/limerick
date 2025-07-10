@@ -1,6 +1,6 @@
 # Discover Limerick - Website
 
-**Discover Limerick** is your ultimate guide to exploring the rich heritage, breathtaking sights, and vibrant culture of Limerick, Ireland. This website provides detailed information about local attractions, upcoming events, dining spots, and more. It serves as a hub for travelers looking to experience the best that Limerick has to offer.
+**Discover Lime** is your ultimate guide to exploring the rich heritage, breathtaking sights, and vibrant culture of Limerick, Ireland. This website provides detailed information about local attractions, upcoming events, dining spots, and more. It serves as a hub for travelers looking to experience the best that Limerick has to offer.
 
 ## Table of Contents
 1. [Features](#features)
